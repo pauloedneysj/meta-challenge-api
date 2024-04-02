@@ -2,7 +2,6 @@ package com.pauloedney.metachallenge.controllers;
 
 import java.util.List;
 
-import com.pauloedney.metachallenge.dto.ProductRequestDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -10,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.pauloedney.metachallenge.models.ProductModel;
+import com.pauloedney.metachallenge.models.dtos.ProductRequestDTO;
 import com.pauloedney.metachallenge.repositories.ProductRepository;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;

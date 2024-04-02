@@ -1,7 +1,7 @@
 package com.pauloedney.metachallenge.controllers;
 
-import com.pauloedney.metachallenge.dto.MeResponseDTO;
 import com.pauloedney.metachallenge.models.UserModel;
+import com.pauloedney.metachallenge.models.dtos.MeResponseDTO;
 import com.pauloedney.metachallenge.repositories.UserRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;

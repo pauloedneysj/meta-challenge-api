@@ -1,4 +1,4 @@
-package com.pauloedney.metachallenge.dto;
+package com.pauloedney.metachallenge.models.dtos;
 
 import java.util.Date;
 

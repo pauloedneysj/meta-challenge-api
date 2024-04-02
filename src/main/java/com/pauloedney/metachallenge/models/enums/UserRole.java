@@ -1,4 +1,4 @@
-package com.pauloedney.metachallenge.enums;
+package com.pauloedney.metachallenge.models.enums;
 
 public enum UserRole {
     ADMIN("admin"),

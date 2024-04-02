@@ -8,7 +8,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.pauloedney.metachallenge.enums.UserRole;
+import com.pauloedney.metachallenge.models.enums.UserRole;
 
 import java.util.Collection;
 import java.util.List;

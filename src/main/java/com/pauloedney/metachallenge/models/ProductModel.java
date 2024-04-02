@@ -2,15 +2,15 @@ package com.pauloedney.metachallenge.models;
 
 import java.util.Date;
 
-import com.pauloedney.metachallenge.dto.ProductRequestDTO;
-
-
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.Field;
+
+import com.pauloedney.metachallenge.models.dtos.ProductRequestDTO;
+
 
 
 @Document(collection = "products")
